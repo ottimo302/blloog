@@ -65,11 +65,6 @@ export default {
           classs: 'list-link'
         },
         {
-          id: 'membership',
-          value: 'Membership',
-          classs: 'list-link'
-        },
-        {
           id: 'contact',
           value: 'Contact',
           classs: 'list-link'
