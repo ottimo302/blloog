@@ -60,21 +60,6 @@ export default {
           classs: 'list-link'
         },
         {
-          id: 'categories',
-          value: 'Categories',
-          classs: 'list-link'
-        },
-        {
-          id: 'reviews',
-          value: 'Reviews',
-          classs: 'list-link'
-        },
-        {
-          id: 'membership',
-          value: 'Membership',
-          classs: 'list-link'
-        },
-        {
           id: 'contact',
           value: 'Contact',
           classs: 'list-link'
