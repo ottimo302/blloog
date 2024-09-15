@@ -4,7 +4,7 @@
     <nav class="navbar container">
       <!-- Header Logo -->
       <a href="./index.html">
-        <h2 class="logo">NewsFlash</h2>
+        <h2 class="logo">blloog</h2>
       </a>
 
       <!-- Header-Links -->
