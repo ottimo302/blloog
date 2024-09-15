@@ -60,11 +60,6 @@ export default {
           classs: 'list-link'
         },
         {
-          id: 'reviews',
-          value: 'Reviews',
-          classs: 'list-link'
-        },
-        {
           id: 'contact',
           value: 'Contact',
           classs: 'list-link'
