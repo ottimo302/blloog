@@ -1,15 +1,29 @@
 <script>
 import TheHeader from './components/header/TheHeader.vue'
+import ArticlesMain from './components/articles/ArticlesMain.vue'
+import OlderPosts from './components/articles/OlderPosts.vue'
+import PopularTags from './components/articles/PopularTags.vue'
+import TheFooter from './components/footer/TheFooter.vue'
 
 export default {
   components: {
-    TheHeader
+    TheHeader,
+    ArticlesMain,
+    OlderPosts,
+    PopularTags,
+    TheFooter
   }
 }
 </script>
 
 <template>
-  <TheHeader></TheHeader>
+  <div>
+    <TheHeader></TheHeader>
+    <ArticlesMain></ArticlesMain>
+    <OlderPosts></OlderPosts>
+    <PopularTags></PopularTags>
+    <TheFooter></TheFooter>
+  </div>
 </template>
 
 <style>
@@ -57,9 +71,7 @@ body {
   color: var(--light-color-alt);
   background-color: var(--primary-background-color);
   letter-spacing: 1px;
-  transition:
-    background-color 0.25s,
-    color 0.25s;
+  transition: background-color 0.25s, color 0.25s;
 }
 
 a {
